@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-dfuzr",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "Internal linter for dfuzr hackers",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/dfuzr/eslint-config-dfuzr/issues"
   },
-  "homepage": "https://github.com/dfuzr/eslint-config-dfuzr#readme"
+  "homepage": "https://github.com/dfuzr/eslint-config-dfuzr#readme",
+  "devDependencies": {
+    "eslint": "^7.20.0"
+  }
 }
