@@ -1,22 +1,27 @@
 {
   "name": "eslint-config-dfuzr",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Internal linter for dfuzr hackers",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dfuzr/eslint-config-dfuzr.git"
   },
   "author": "jake.talley@dfuzr.com",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dfuzr/eslint-config-dfuzr/issues"
-  },
   "homepage": "https://github.com/dfuzr/eslint-config-dfuzr#readme",
   "devDependencies": {
-    "eslint": "^7.20.0"
+    "eslint": "^6.7.1",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-header": "^3.0.0",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^4.0.4",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "prettier": "^2.0.2",
+    "stylelint": "^13.2.1",
+    "stylelint-copyright": "^2.0.0-alpha.69"
   }
 }
